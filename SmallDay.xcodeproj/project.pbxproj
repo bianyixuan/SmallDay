@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D33A55B51D4F29A8008790F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A55B41D4F29A8008790F9 /* AppDelegate.swift */; };
+		D33A55BA1D4F29A8008790F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33A55B81D4F29A8008790F9 /* Main.storyboard */; };
+		D33A55BC1D4F29A8008790F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33A55BB1D4F29A8008790F9 /* Assets.xcassets */; };
+		D33A55BF1D4F29A8008790F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33A55BD1D4F29A8008790F9 /* LaunchScreen.storyboard */; };
+		D33A55CA1D4F29A8008790F9 /* SmallDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A55C91D4F29A8008790F9 /* SmallDayTests.swift */; };
+		D33A55D51D4F29A8008790F9 /* SmallDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A55D41D4F29A8008790F9 /* SmallDayUITests.swift */; };
+		D33A55ED1D4F2BCE008790F9 /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A55EC1D4F2BCE008790F9 /* theme.swift */; };
+		D33A55F21D4F302C008790F9 /* LeadpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A55F11D4F302C008790F9 /* LeadpageViewController.swift */; };
+		D33A55F71D4F3326008790F9 /* fourpage-375w-667h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33A55F31D4F3326008790F9 /* fourpage-375w-667h@2x.jpg */; };
+		D33A55F81D4F3326008790F9 /* fourpage-414w-736h@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33A55F41D4F3326008790F9 /* fourpage-414w-736h@3x.jpg */; };
+		D33A55F91D4F3326008790F9 /* fourpage-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33A55F51D4F3326008790F9 /* fourpage-568h@2x.jpg */; };
+		D33A55FA1D4F3326008790F9 /* fourpage@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33A55F61D4F3326008790F9 /* fourpage@2x.jpg */; };
+		D33A55FC1D4F35B1008790F9 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A55FB1D4F35B1008790F9 /* MainTabBarViewController.swift */; };
+		D33A56051D4F3986008790F9 /* UIColor+wnxColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A56041D4F3986008790F9 /* UIColor+wnxColor.swift */; };
+		D33A56071D4F3B0D008790F9 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A56061D4F3B0D008790F9 /* MainNavigationController.swift */; };
+		D33A560A1D4F3E54008790F9 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A56091D4F3E54008790F9 /* ExploreViewController.swift */; };
+		D33A560F1D4F3E95008790F9 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A560E1D4F3E95008790F9 /* MeViewController.swift */; };
+		D33A56111D4F3EA3008790F9 /* ClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A56101D4F3EA3008790F9 /* ClassifyViewController.swift */; };
+		D33A56131D4F3EB7008790F9 /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A56121D4F3EB7008790F9 /* ExperienceViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D33A55C61D4F29A8008790F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33A55A91D4F29A8008790F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33A55B01D4F29A8008790F9;
+			remoteInfo = SmallDay;
+		};
+		D33A55D11D4F29A8008790F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33A55A91D4F29A8008790F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33A55B01D4F29A8008790F9;
+			remoteInfo = SmallDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D33A55B11D4F29A8008790F9 /* SmallDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33A55B41D4F29A8008790F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D33A55B91D4F29A8008790F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D33A55BB1D4F29A8008790F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D33A55BE1D4F29A8008790F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D33A55C01D4F29A8008790F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33A55C51D4F29A8008790F9 /* SmallDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33A55C91D4F29A8008790F9 /* SmallDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallDayTests.swift; sourceTree = "<group>"; };
+		D33A55CB1D4F29A8008790F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33A55D01D4F29A8008790F9 /* SmallDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33A55D41D4F29A8008790F9 /* SmallDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallDayUITests.swift; sourceTree = "<group>"; };
+		D33A55D61D4F29A8008790F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33A55EC1D4F2BCE008790F9 /* theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
+		D33A55F11D4F302C008790F9 /* LeadpageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadpageViewController.swift; sourceTree = "<group>"; };
+		D33A55F31D4F3326008790F9 /* fourpage-375w-667h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fourpage-375w-667h@2x.jpg"; sourceTree = "<group>"; };
+		D33A55F41D4F3326008790F9 /* fourpage-414w-736h@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fourpage-414w-736h@3x.jpg"; sourceTree = "<group>"; };
+		D33A55F51D4F3326008790F9 /* fourpage-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fourpage-568h@2x.jpg"; sourceTree = "<group>"; };
+		D33A55F61D4F3326008790F9 /* fourpage@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fourpage@2x.jpg"; sourceTree = "<group>"; };
+		D33A55FB1D4F35B1008790F9 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		D33A56041D4F3986008790F9 /* UIColor+wnxColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+wnxColor.swift"; sourceTree = "<group>"; };
+		D33A56061D4F3B0D008790F9 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		D33A56091D4F3E54008790F9 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		D33A560E1D4F3E95008790F9 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		D33A56101D4F3EA3008790F9 /* ClassifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifyViewController.swift; sourceTree = "<group>"; };
+		D33A56121D4F3EB7008790F9 /* ExperienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D33A55AE1D4F29A8008790F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33A55C21D4F29A8008790F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33A55CD1D4F29A8008790F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D33A55A81D4F29A8008790F9 = {
+			isa = PBXGroup;
+			children = (
+				D33A55B31D4F29A8008790F9 /* SmallDay */,
+				D33A55C81D4F29A8008790F9 /* SmallDayTests */,
+				D33A55D31D4F29A8008790F9 /* SmallDayUITests */,
+				D33A55B21D4F29A8008790F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D33A55B21D4F29A8008790F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D33A55B11D4F29A8008790F9 /* SmallDay.app */,
+				D33A55C51D4F29A8008790F9 /* SmallDayTests.xctest */,
+				D33A55D01D4F29A8008790F9 /* SmallDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D33A55B31D4F29A8008790F9 /* SmallDay */ = {
+			isa = PBXGroup;
+			children = (
+				D33A55B41D4F29A8008790F9 /* AppDelegate.swift */,
+				D33A55E21D4F2B37008790F9 /* Classes */,
+				D33A55B81D4F29A8008790F9 /* Main.storyboard */,
+				D33A55BB1D4F29A8008790F9 /* Assets.xcassets */,
+				D33A55BD1D4F29A8008790F9 /* LaunchScreen.storyboard */,
+				D33A55C01D4F29A8008790F9 /* Info.plist */,
+			);
+			path = SmallDay;
+			sourceTree = "<group>";
+		};
+		D33A55C81D4F29A8008790F9 /* SmallDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				D33A55C91D4F29A8008790F9 /* SmallDayTests.swift */,
+				D33A55CB1D4F29A8008790F9 /* Info.plist */,
+			);
+			path = SmallDayTests;
+			sourceTree = "<group>";
+		};
+		D33A55D31D4F29A8008790F9 /* SmallDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D33A55D41D4F29A8008790F9 /* SmallDayUITests.swift */,
+				D33A55D61D4F29A8008790F9 /* Info.plist */,
+			);
+			path = SmallDayUITests;
+			sourceTree = "<group>";
+		};
+		D33A55E21D4F2B37008790F9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D33A55E31D4F2B37008790F9 /* BusinessModel */,
+				D33A55E41D4F2B37008790F9 /* CustomData */,
+				D33A55E51D4F2B37008790F9 /* ImageFile */,
+				D33A55E61D4F2B37008790F9 /* Tools */,
+				D33A55E71D4F2B37008790F9 /* UI */,
+				D33A55E81D4F2B37008790F9 /* Venders */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D33A55E31D4F2B37008790F9 /* BusinessModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessModel;
+			sourceTree = "<group>";
+		};
+		D33A55E41D4F2B37008790F9 /* CustomData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomData;
+			sourceTree = "<group>";
+		};
+		D33A55E51D4F2B37008790F9 /* ImageFile */ = {
+			isa = PBXGroup;
+			children = (
+				D33A55F31D4F3326008790F9 /* fourpage-375w-667h@2x.jpg */,
+				D33A55F41D4F3326008790F9 /* fourpage-414w-736h@3x.jpg */,
+				D33A55F51D4F3326008790F9 /* fourpage-568h@2x.jpg */,
+				D33A55F61D4F3326008790F9 /* fourpage@2x.jpg */,
+			);
+			path = ImageFile;
+			sourceTree = "<group>";
+		};
+		D33A55E61D4F2B37008790F9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D33A55E71D4F2B37008790F9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D33A560D1D4F3E80008790F9 /* Me */,
+				D33A560C1D4F3E75008790F9 /* Classify */,
+				D33A560B1D4F3E68008790F9 /* Experience */,
+				D33A56081D4F3E38008790F9 /* Explore */,
+				D33A55FD1D4F3781008790F9 /* Extension */,
+				D33A55EE1D4F2F2F008790F9 /* Main */,
+				D33A55E91D4F2B5B008790F9 /* Other */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D33A55E81D4F2B37008790F9 /* Venders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Venders;
+			sourceTree = "<group>";
+		};
+		D33A55E91D4F2B5B008790F9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D33A55EC1D4F2BCE008790F9 /* theme.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		D33A55EE1D4F2F2F008790F9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D33A55F11D4F302C008790F9 /* LeadpageViewController.swift */,
+				D33A55FB1D4F35B1008790F9 /* MainTabBarViewController.swift */,
+				D33A56061D4F3B0D008790F9 /* MainNavigationController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D33A55FD1D4F3781008790F9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D33A56041D4F3986008790F9 /* UIColor+wnxColor.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		D33A56081D4F3E38008790F9 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				D33A56091D4F3E54008790F9 /* ExploreViewController.swift */,
+			);
+			name = Explore;
+			sourceTree = "<group>";
+		};
+		D33A560B1D4F3E68008790F9 /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				D33A56121D4F3EB7008790F9 /* ExperienceViewController.swift */,
+			);
+			name = Experience;
+			sourceTree = "<group>";
+		};
+		D33A560C1D4F3E75008790F9 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				D33A56101D4F3EA3008790F9 /* ClassifyViewController.swift */,
+			);
+			name = Classify;
+			sourceTree = "<group>";
+		};
+		D33A560D1D4F3E80008790F9 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				D33A560E1D4F3E95008790F9 /* MeViewController.swift */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D33A55B01D4F29A8008790F9 /* SmallDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33A55D91D4F29A8008790F9 /* Build configuration list for PBXNativeTarget "SmallDay" */;
+			buildPhases = (
+				D33A55AD1D4F29A8008790F9 /* Sources */,
+				D33A55AE1D4F29A8008790F9 /* Frameworks */,
+				D33A55AF1D4F29A8008790F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmallDay;
+			productName = SmallDay;
+			productReference = D33A55B11D4F29A8008790F9 /* SmallDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D33A55C41D4F29A8008790F9 /* SmallDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33A55DC1D4F29A8008790F9 /* Build configuration list for PBXNativeTarget "SmallDayTests" */;
+			buildPhases = (
+				D33A55C11D4F29A8008790F9 /* Sources */,
+				D33A55C21D4F29A8008790F9 /* Frameworks */,
+				D33A55C31D4F29A8008790F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33A55C71D4F29A8008790F9 /* PBXTargetDependency */,
+			);
+			name = SmallDayTests;
+			productName = SmallDayTests;
+			productReference = D33A55C51D4F29A8008790F9 /* SmallDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D33A55CF1D4F29A8008790F9 /* SmallDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33A55DF1D4F29A8008790F9 /* Build configuration list for PBXNativeTarget "SmallDayUITests" */;
+			buildPhases = (
+				D33A55CC1D4F29A8008790F9 /* Sources */,
+				D33A55CD1D4F29A8008790F9 /* Frameworks */,
+				D33A55CE1D4F29A8008790F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33A55D21D4F29A8008790F9 /* PBXTargetDependency */,
+			);
+			name = SmallDayUITests;
+			productName = SmallDayUITests;
+			productReference = D33A55D01D4F29A8008790F9 /* SmallDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D33A55A91D4F29A8008790F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = brandon;
+				TargetAttributes = {
+					D33A55B01D4F29A8008790F9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SK6LU2U9X5;
+					};
+					D33A55C41D4F29A8008790F9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D33A55B01D4F29A8008790F9;
+					};
+					D33A55CF1D4F29A8008790F9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D33A55B01D4F29A8008790F9;
+					};
+				};
+			};
+			buildConfigurationList = D33A55AC1D4F29A8008790F9 /* Build configuration list for PBXProject "SmallDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D33A55A81D4F29A8008790F9;
+			productRefGroup = D33A55B21D4F29A8008790F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D33A55B01D4F29A8008790F9 /* SmallDay */,
+				D33A55C41D4F29A8008790F9 /* SmallDayTests */,
+				D33A55CF1D4F29A8008790F9 /* SmallDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D33A55AF1D4F29A8008790F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33A55BF1D4F29A8008790F9 /* LaunchScreen.storyboard in Resources */,
+				D33A55BC1D4F29A8008790F9 /* Assets.xcassets in Resources */,
+				D33A55F71D4F3326008790F9 /* fourpage-375w-667h@2x.jpg in Resources */,
+				D33A55FA1D4F3326008790F9 /* fourpage@2x.jpg in Resources */,
+				D33A55F81D4F3326008790F9 /* fourpage-414w-736h@3x.jpg in Resources */,
+				D33A55F91D4F3326008790F9 /* fourpage-568h@2x.jpg in Resources */,
+				D33A55BA1D4F29A8008790F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33A55C31D4F29A8008790F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33A55CE1D4F29A8008790F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D33A55AD1D4F29A8008790F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33A56071D4F3B0D008790F9 /* MainNavigationController.swift in Sources */,
+				D33A55F21D4F302C008790F9 /* LeadpageViewController.swift in Sources */,
+				D33A56131D4F3EB7008790F9 /* ExperienceViewController.swift in Sources */,
+				D33A56111D4F3EA3008790F9 /* ClassifyViewController.swift in Sources */,
+				D33A560F1D4F3E95008790F9 /* MeViewController.swift in Sources */,
+				D33A56051D4F3986008790F9 /* UIColor+wnxColor.swift in Sources */,
+				D33A55FC1D4F35B1008790F9 /* MainTabBarViewController.swift in Sources */,
+				D33A55B51D4F29A8008790F9 /* AppDelegate.swift in Sources */,
+				D33A560A1D4F3E54008790F9 /* ExploreViewController.swift in Sources */,
+				D33A55ED1D4F2BCE008790F9 /* theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33A55C11D4F29A8008790F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33A55CA1D4F29A8008790F9 /* SmallDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33A55CC1D4F29A8008790F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33A55D51D4F29A8008790F9 /* SmallDayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D33A55C71D4F29A8008790F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33A55B01D4F29A8008790F9 /* SmallDay */;
+			targetProxy = D33A55C61D4F29A8008790F9 /* PBXContainerItemProxy */;
+		};
+		D33A55D21D4F29A8008790F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33A55B01D4F29A8008790F9 /* SmallDay */;
+			targetProxy = D33A55D11D4F29A8008790F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D33A55B81D4F29A8008790F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33A55B91D4F29A8008790F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D33A55BD1D4F29A8008790F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33A55BE1D4F29A8008790F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D33A55D71D4F29A8008790F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D33A55D81D4F29A8008790F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D33A55DA1D4F29A8008790F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmallDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.SmallDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D33A55DB1D4F29A8008790F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmallDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.SmallDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D33A55DD1D4F29A8008790F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmallDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.SmallDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmallDay.app/SmallDay";
+			};
+			name = Debug;
+		};
+		D33A55DE1D4F29A8008790F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmallDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.SmallDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmallDay.app/SmallDay";
+			};
+			name = Release;
+		};
+		D33A55E01D4F29A8008790F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmallDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.SmallDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmallDay;
+			};
+			name = Debug;
+		};
+		D33A55E11D4F29A8008790F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmallDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandon.SmallDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmallDay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D33A55AC1D4F29A8008790F9 /* Build configuration list for PBXProject "SmallDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33A55D71D4F29A8008790F9 /* Debug */,
+				D33A55D81D4F29A8008790F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33A55D91D4F29A8008790F9 /* Build configuration list for PBXNativeTarget "SmallDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33A55DA1D4F29A8008790F9 /* Debug */,
+				D33A55DB1D4F29A8008790F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33A55DC1D4F29A8008790F9 /* Build configuration list for PBXNativeTarget "SmallDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33A55DD1D4F29A8008790F9 /* Debug */,
+				D33A55DE1D4F29A8008790F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33A55DF1D4F29A8008790F9 /* Build configuration list for PBXNativeTarget "SmallDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33A55E01D4F29A8008790F9 /* Debug */,
+				D33A55E11D4F29A8008790F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D33A55A91D4F29A8008790F9 /* Project object */;
+}
